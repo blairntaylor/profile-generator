@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Profile Generator</title>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>My Team</header>
+
+    <div class="content">
+        <div id="top-row">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body p-3 mb-2 bg-primary text-white">
+                <h5 class="card-title">${name}</h5>
+                <h5 class="card-text">${role}</h5>
+              </div>
+              <div class="card-body">
+                <div class="card" style="width: 15rem;">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">ID: ${id}</li>
+                    <li class="list-group-item">Email: ${email}</li>
+                    <li class="list-group-item">OfficeNumber: ${phone}</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <div class="card-body p-3 mb-2 bg-primary text-white">
+                <h5 class="card-title">${name}</h5>
+                <h5 class="card-text">${role}</h5>
+              </div>
+              <div class="card-body">
+                <div class="card" style="width: 15rem;">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">ID: ${id}</li>
+                    <li class="list-group-item">Email: ${email}</li>
+                    <li class="list-group-item">GitHub: ${github}</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <div class="card-body p-3 mb-2 bg-primary text-white">
+                <h5 class="card-title">${name}</h5>
+                <h5 class="card-text">${role}</h5>
+              </div>
+              <div class="card-body">
+                <div class="card" style="width: 15rem;">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">ID: ${id}</li>
+                    <li class="list-group-item">Email: ${email}</li>
+                    <li class="list-group-item">GitHub: ${github}</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+
+      <div id ="bottom-row">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body p-3 mb-2 bg-primary text-white">
+            <h5 class="card-title">${name}</h5>
+            <h5 class="card-text">${role}</h5>
+          </div>
+          <div class="card-body">
+            <div class="card" style="width: 15rem;">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">ID: ${id}</li>
+                <li class="list-group-item">Email: ${email}</li>
+                <li class="list-group-item">GitHub: ${github}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body p-3 mb-2 bg-primary text-white">
+            <h5 class="card-title">${name}</h5>
+            <h5 class="card-text">${role}</h5>
+          </div>
+          <div class="card-body p-3 mb-2 bg-light text-dark">
+            <div class="card" style="width: 15rem;">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">ID: ${id}</li>
+                <li class="list-group-item">Email: ${email}</li>
+                <li class="list-group-item">School: ${school}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+</body>
+</html>

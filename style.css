@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(209, 77, 77);
+  height: 100px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-size: x-large;
+}
+
+.content {
+  display: block;
+  margin-left: auto;
+  width: 80%;
+}
+
+.card {
+  float: left;
+  margin-right: 10px;
+  margin-top: 30px;
+}
