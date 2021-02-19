@@ -4,6 +4,11 @@ const { get } = require("http");
 const inquirer = require("inquirer");
 const jest = require("jest");
 
+const Employee = require("./lib/employee");
+const Manager = require("./lib/manager");
+const Engineer = require("./lib/engineer");
+const Intern = require("./lib/intern");
+
 let finalTeam = [];
 
 const genQuestions = [
@@ -231,7 +236,6 @@ function init() {
         </div>
       </div>
   </div>
-
 <div id ="bottom-row">
   <div class="card" style="width: 18rem;">
     <div class="card-body p-3 mb-2 bg-primary text-white">
@@ -264,9 +268,7 @@ function init() {
     </div>
   </div>
 </div>
-
 </div>
-
 </body>
 </html>`;
   }
